@@ -7,7 +7,6 @@ def result(request):
     from django.shortcuts import render,redirect
     name=request.GET['name']
     address=request.GET['P']
-    number=request.GET['G']
     document=request.GET['category']
     from twilio.rest import Client
     
