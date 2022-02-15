@@ -26,9 +26,6 @@ def result(request):
                                    from_=from_whatsapp_number,
                                    to=to_whatsapp_number)
 
-    message=client.messages.create(body=number,
-                                   from_=from_whatsapp_number,
-                                   to=to_whatsapp_number)
     
     message=client.messages.create(body=document,
                                    from_=from_whatsapp_number,
